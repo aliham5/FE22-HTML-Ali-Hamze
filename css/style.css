@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+   
+}
+.Rekas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    background-color: bisque;
+    height: 10vw;
+    position: sticky; 
+    top: 0;
+    
+
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1.5rem;
+    
+
+}
+a{
+    border-right: 1px rgb(205, 201, 201) solid;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color .5s;
+    font-size: 35px;
+    font-style:bold;
+
+
+}
+
+a:last-child{
+    border:none
+}
+
+a:hover{
+    color: #e8af2a
+    ;
+}
+
+footer{
+    display: flex;
+    background-color: #e8af2a;
+    position: fixed;
+    bottom: 0;
+    height: 8vw;
+    width: 100%;
+    clear: both;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+} 
+footer h2{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 33%;
+    margin-right: 33%;
+    
+}
+
+.Boka{
+
+    display: flex;
+    align-items: center;
+    width: 10%;
+   justify-content: center;
+  flex-flow: column wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+
+}
+.Boka form{
+ width: 20%; 
+
+ }
+
+
+.info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    
+   
+}
+
+h1 {
+    color: rgb(185, 158, 0);
+    font-style:oblique;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    
+}
+p{
+    color: rgb(103, 88, 4);
+    font-size: 25px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px; 
+    row-gap: 30px;
+    gap: 2rem;
+
+    
+}
+.item-1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: aliceblue;
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+.item-2{
+    grid-column: 1/2;
+    grid-row: 2/2;
+    background-color: aliceblue;
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+.item-3{
+    grid-column: 1/2;
+    grid-row: 3/3;
+    background-color: aliceblue;
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+.item-4{
+    grid-column: 1/2;
+    grid-row: 4/4;
+    background-color: aliceblue;
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    
+}
+
+.item-5{
+    grid-column: 1/2;
+    grid-row: 5/5;
+    background-color: aliceblue;
+    font-size: 1.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+
